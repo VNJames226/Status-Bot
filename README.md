@@ -1,5 +1,5 @@
 
-Funktionen des DC Status Bots
+Funktionen des Status Bots
 
 Discord Server Status
 
