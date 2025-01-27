@@ -1,4 +1,4 @@
-Funktionen des DC Status Bots
+#Funktionen des DC Status Bots
 Discord Server Status
 Mitgliederübersicht:
 Gesamtanzahl der Mitglieder.
