@@ -22,14 +22,15 @@ Ein leistungsstarker Bot zur Überwachung deines Minecraft-Servers direkt in Dis
 
 ## 🚀 Schnellstart
 
-**Voraussetzungen:** Python 3.8+ sowie die Bibliotheken `discord.py` und `mcstatus`.
+**Voraussetzungen:** Python 3.8+ sowie die Bibliotheken `discord.py` und `aiohttp`.
 
 1. **Abhängigkeiten installieren:**
-   `pip install discord.py mcstatus python-dotenv`
+   `pip install discord.py aiohttp`
 
 2. **Konfiguration:**
-   Erstelle eine `.env` Datei im Hauptverzeichnis:
-   ```env
-   TOKEN=DEIN_DISCORD_BOT_TOKEN
-   MC_SERVER_IP=play.deinserver.de
-   CHANNEL_ID=123456789012345678
+   Öffne die Datei `bot.py` und trage deine Daten in die entsprechenden Variablen ein:
+   * **Bot-Token:** Ersetze `DEIN_TOKEN` durch deinen Discord Bot Token.
+   * **Server-IP:** Trage bei `SERVER_ADDRESS = "ip"` die IP oder Domain deines Minecraft-Servers ein.
+
+3. **Bot starten:**
+   `python bot.py`
