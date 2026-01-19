@@ -3,24 +3,20 @@
 
 # Discord Status Bot (Python)
 
-Ein leistungsstarker Bot zur Überwachung deines Discord-Servers und deines Minecraft-Servers. Die Informationen werden alle 30 Sekunden in einem professionellen Embed aktualisiert.
+Ein leistungsstarker Bot zur Überwachung deines Minecraft-Servers direkt in Discord. Die Informationen werden alle 30 Sekunden in einem professionellen Embed aktualisiert.
 
 ## ✨ Funktionen
 
-### 📊 Discord Server Status
-* **Mitgliederübersicht:** Anzeige der Gesamtzahl, Online-Mitglieder, Menschen vs. Bots.
-* **Server Boosts:** Aktuelle Anzahl der Boosts und das erreichte Server-Level.
-
 ### 🎮 Minecraft Server Status
 * **Server Status:** Live-Anzeige, ob der Server online oder offline ist.
-* **Spieleranzahl:** Aktuelle und maximale Spieleranzahl auf einen Blick.
-* **Details:** Anzeige von Server-Ping und der installierten Version.
+* **Spieleranzahl:** Aktuelle sowie maximale Spieleranzahl auf einen Blick.
+* **Version:** Information zur derzeitigen Server-Version.
 
 ### ℹ️ Server-Informationen & Updates
-* **IP-Adresse:** Schneller Zugriff auf die Server-Adresse.
-* **Verlinkung:** Direktlink zur detaillierten Status-Seite.
-* **Auto-Update:** Automatische Aktualisierung alle **30 Sekunden**.
-* **Zeitstempel:** Benutzerdefinierte Signatur mit der letzten Aktualisierungszeit.
+* **IP-Adresse:** Zeigt die IP-Adresse des Servers im Embed an.
+* **Status-Seite Verlinkung:** Direktlink zu einer detaillierten Status-Seite.
+* **Auto-Update:** Automatische Aktualisierung der Informationen alle **30 Sekunden**.
+* **Benutzerdefinierte Bot-Signatur:** Zeigt den genauen Zeitpunkt der letzten Aktualisierung an.
 
 ---
 
@@ -32,9 +28,8 @@ Ein leistungsstarker Bot zur Überwachung deines Discord-Servers und deines Mine
    `pip install discord.py mcstatus python-dotenv`
 
 2. **Konfiguration:**
-   Erstelle eine `.env` Datei und hinterlege dort deinen Token und die Server-IP:
+   Erstelle eine `.env` Datei im Hauptverzeichnis:
    ```env
-   TOKEN=DEIN_BOT_TOKEN
-   GUILD_ID=DEIN_SERVER_ID
+   TOKEN=DEIN_DISCORD_BOT_TOKEN
    MC_SERVER_IP=play.deinserver.de
-   CHANNEL_ID=1234567890
+   CHANNEL_ID=123456789012345678
