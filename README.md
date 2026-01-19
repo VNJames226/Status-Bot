@@ -35,18 +35,6 @@ Ein leistungsstarker Bot zur Überwachung deines Discord-Servers und deines Mine
    Erstelle eine `.env` Datei und hinterlege dort deinen Token und die Server-IP:
    ```env
    TOKEN=DEIN_BOT_TOKEN
+   GUILD_ID=DEIN_SERVER_ID
    MC_SERVER_IP=play.deinserver.de
    CHANNEL_ID=1234567890
-
-
-
-
-
-
-
-
-
-
-
-
-
