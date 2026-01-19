@@ -3,7 +3,7 @@
 
 # Discord Status Bot (Python)
 
-Ein leistungsstarker Bot zur Überwachung deines Minecraft-Servers direkt in Discord. Die Informationen werden alle 30 Sekunden in einem professionellen Embed aktualisiert.
+Ein leistungsstarker Bot zur Überwachung deines Minecraft-Servers direkt in Discord. Die Informationen werden sofort in einem professionellen Embed aktualisiert.
 
 ## ✨ Funktionen
 
